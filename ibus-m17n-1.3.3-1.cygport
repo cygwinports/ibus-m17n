@@ -1,0 +1,7 @@
+DESCRIPTION="IBus Multilingual X Input Module engine"
+HOMEPAGE="http://code.google.com/p/ibus/"
+SRC_URI="http://ibus.googlecode.com/files/${P}.tar.gz"
+
+DISTCLEANFILES="setup/version.py src/default.xml.in"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/ibus"
