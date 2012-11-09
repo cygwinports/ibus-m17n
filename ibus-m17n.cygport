@@ -1,0 +1,15 @@
+NAME="ibus-m17n"
+VERSION=1.3.4
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="IBus Mulitlingual Input Method engine"
+DESCRIPTION="IBus is an Intelligent Input Bus. It is a new input framework
+for X11 systems. It provides full featured and user friendly input method
+user interface. It also may help developers to develop input method easily."
+REQUIRES="ibus"
+HOMEPAGE="http://code.google.com/p/ibus/"
+SRC_URI="http://ibus.googlecode.com/files/${P}.tar.gz"
+
+DISTCLEANFILES="setup/version.py src/default.xml.in"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/ibus"
