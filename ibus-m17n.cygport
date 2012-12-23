@@ -1,6 +1,6 @@
 NAME="ibus-m17n"
 VERSION=1.3.4
-RELEASE=1
+RELEASE=2
 CATEGORY="X11"
 SUMMARY="IBus Mulitlingual Input Method engine"
 DESCRIPTION="IBus is an Intelligent Input Bus. It is a new input framework
