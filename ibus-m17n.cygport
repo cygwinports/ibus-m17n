@@ -7,7 +7,7 @@ DESCRIPTION="IBus is an Intelligent Input Bus. It is a new input framework
 for X11 systems. It provides full featured and user friendly input method
 user interface. It also may help developers to develop input method easily."
 REQUIRES="ibus"
-HOMEPAGE="http://code.google.com/p/ibus/"
-SRC_URI="http://ibus.googlecode.com/files/${P}.tar.gz"
+HOMEPAGE="https://github.com/ibus/ibus-m17n/"
+SRC_URI="https://github.com/ibus/ibus-m17n/archive/${VERSION}/ibus-m17n-${VERSION}.tar.gz"
 
 DISTCLEANFILES="setup/version.py src/default.xml.in"
